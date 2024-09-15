@@ -16,6 +16,7 @@ import htmlDark from "../../assets/html-dark.png"
 import gitLight from "../../assets/git-light.svg"
 import gitDark from "../../assets/git-dark.svg"
 import reactQueryLight from "../../assets/reactquery-light.svg"
+import reactQueryDark from "../../assets/reactquery-dark.svg"
 import SkillList from "../../common/SkillList"
 import { useTheme } from "../../common/ThemeContext"
 
@@ -30,7 +31,7 @@ function Skills() {
   const cssIcon = theme === "light" ? cssLight : cssDark;
   const htmlIcon = theme === "light" ? htmlLight : htmlDark;
   const gitIcon = theme === "light" ? gitLight : gitDark;
-  const reactQeuryIcon = theme === "light" ? reactQueryLight : reactQueryLight;
+  const reactQeuryIcon = theme === "light" ? reactQueryLight : reactQueryDark;
 
   return (
     <section id='skills' className={styles.container}> 
